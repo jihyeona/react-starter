@@ -11,3 +11,74 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.lemon-card {
+  position: relative;
+  width: 371px;
+  height: 372px;
+  left: 20px;
+  top: 115px;
+  background: #8CFFBA;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;  
+}
+.lemon-card-title {
+  position: absolute;
+  width: 215px;
+  height: 70px;
+  left: 50px;
+  top: 145px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 82px;
+  display: flex;
+  align-items: center;
+  color: #166F39;
+}
+.lemon-emoji {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 301px;
+  top: 145px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 82px;
+  color: #000000;
+}
+.light-part {
+  position: absolute;
+  width: 371px;
+  height: 246px;
+  left: 20px;
+  top: 241px;
+  background: #CFFFE2;
+  border-radius: 0px 0px 8px 8px;
+}
+.lemon-subtitle {
+  position: absolute;
+  width: 311px;
+  height: 90px;
+  left: 50px;
+  top: 271px;
+  font-family: Lora;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 47px;
+  text-align: center;
+  color: #000000;
+}
+.lemon-button {
+  position: absolute;
+  width: 311px;
+  height: 50px;
+  left: 50px;
+  top: 407px;
+  background: #FCED84;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
